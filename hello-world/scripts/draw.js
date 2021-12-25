@@ -21,7 +21,7 @@ export class Draw {
   
   drawCircle(xCenter, yCenter, radius) {
     this.context.moveTo(xCenter + radius, yCenter);
-    this.context.arc(xCenter, yCenter, radius, 0, 360);
+    this.context.arc(xCenter, yCenter, radius, 0, 2 * Math.PI);
     this.context.stroke();
   }
 }
