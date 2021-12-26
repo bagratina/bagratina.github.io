@@ -1,14 +1,20 @@
+h1 {
+  color: white;
+  background-color: black;
+}
+
 #canvas-container {
-  height: 99%;
   display: inline-block;
   border: 2px solid black;
  }
 
-#canvas {
-  height: 90%;
+#canvas-header {
+  padding: 10px;
+  height: 10%;
+  background-color: black;
 }
 
-#footer {
+#canvas-footer {
   height: 10%;
   background-color: black;
 }
