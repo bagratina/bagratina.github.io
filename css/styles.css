@@ -4,11 +4,21 @@
 }
 
 body {
+  display: inline-block;
+}
+
+p {
   margin: 10px;
 }
 
-#header {
+h1 {
+  margin: 10px;
+}
+
+.container {
   display: inline-block;
-  padding: 10px;
-  border: 1px solid black;
+ }
+
+#canvas {
+  margin: 10px;
 }
